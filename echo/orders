@@ -7,7 +7,7 @@
 #in this case, this order for a service is at /echo, so
 #http://<shipname>/echo
 #reaches this service
-export PORT=3000
+export PORT='3000'
 
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
