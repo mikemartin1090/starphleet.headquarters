@@ -8,6 +8,7 @@
 #http://<shipname>/echo
 #reaches this service
 export PORT='3000'
+export PUBLISH_PORT='8000'
 
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
