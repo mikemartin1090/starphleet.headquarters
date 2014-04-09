@@ -1,2 +1,2 @@
 #pretending starphleet is data for this example
-autodeploy https://github.com/wballard/starphleet.headquarters.git
+autodeploy git@github.com:wballard/starphleet.headquarters.git
