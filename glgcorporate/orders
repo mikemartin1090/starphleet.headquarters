@@ -1,0 +1,5 @@
+#this is a site with nothing at root, but many sub sites at / paths
+export PORT=5555
+export PUBLISH_PORT=5555
+
+autodeploy git@github.com:glg/GLGCorporateWebsite.git
