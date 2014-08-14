@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 #@ * * * * 1
 
 #This is a simple sh-at scheduled job example, it just hits the local
