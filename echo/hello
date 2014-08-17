@@ -4,7 +4,7 @@
 #This is a simple sh-at scheduled job example, it just hits the local
 #service -- which is on the container itself and so isn't at /echo
 
-echo Hitting service...
+echo Hello!
 curl http://localhost/on_container
 
 #and you can always hit the ship, in which case you need to use the service
