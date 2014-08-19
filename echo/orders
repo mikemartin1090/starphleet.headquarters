@@ -10,6 +10,9 @@
 export PORT='3000'
 export PUBLISH_PORT='8000'
 
+#make sure we are on the air
+export HEALTHCHECK='/'
+
 #this is an example of a service that needs to stop before autodeploy
 #this comes up with services that may have file locks so that two
 #instances cannot run at the same time
