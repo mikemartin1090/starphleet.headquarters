@@ -4,5 +4,5 @@
 #This is a simple sh-at scheduled job example, it just hits the local
 #service -- which is on the container itself and so isn't at /echo
 
-echo Goodbye
+echo Goodbye $(pwd) ${PORT}
 curl http://localhost/goodbye
