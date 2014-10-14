@@ -21,3 +21,6 @@ stop_before_autodeploy
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
 autodeploy https://github.com/wballard/echo.git#headers
+
+beta beep /echo/echo/beep
+beta boop /echo/echo/boop
