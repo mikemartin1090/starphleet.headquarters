@@ -22,5 +22,5 @@ stop_before_autodeploy
 #and if it sees and changes to a rolling, no-interruption deployment
 autodeploy https://github.com/wballard/echo.git#headers
 
-beta beep /echo/echo/beep
-beta boop /echo/echo/boop
+beta beep /echo/beep
+beta boop /echo/boop
