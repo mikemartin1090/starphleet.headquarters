@@ -7,8 +7,7 @@
 #in this case, this order for a service is at /echo, so
 #http://<shipname>/echo
 #reaches this service
-export PORT='3000'
-export PUBLISH_PORT='8000'
+export PORT='4000'
 
 #make sure we are on the air
 export HEALTHCHECK='/'
