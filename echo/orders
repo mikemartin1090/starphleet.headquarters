@@ -21,6 +21,7 @@ stop_before_autodeploy
 #and if it sees and changes to a rolling, no-interruption deployment
 autodeploy https://github.com/wballard/echo.git#headers
 
+export BUILDPACK_CACHE_DIR="/var/data/echocache"
 export BUILDPACK_URL="https://github.com/glg/heroku-buildpack-nodejs.git#caching"
 
 beta beep /echo/beep
