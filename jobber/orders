@@ -1,3 +1,5 @@
 #this is an order with no autodeploy, and explicitly not published
 #so it just makes a container, and will run the #@ jobs in this folder
 unpublished
+#test NAT exposure -- though there is nothing here...
+expose 43000
